@@ -21,7 +21,7 @@ jobs:
       - uses: aws-actions/configure-aws-credentials@v4
         with:
           aws-region: eu-central-1
-          role-to-assume: arn:aws:iam::541128407328:role/role-githubactions
+          role-to-assume: arn:aws:iam::<<account>>:role/role-githubactions
     
       - name: List S3 Buckets
         run: |
